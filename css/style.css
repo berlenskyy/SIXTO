@@ -343,12 +343,13 @@ section {
 }
 
 .dots {
+    width: 130px;
     position: relative;
     bottom: 80px;
-    left: 45%;
-    display: inline-block;
+    display: block;
     height: 50px;
     padding: 17px;
+    margin: auto;
 }
 
 .slideshow-container .dot {
@@ -474,7 +475,6 @@ footer {
     .dots {
         position: relative;
         bottom: 45px;
-        left: 40%;
     }
     .dots .dot {
         padding: 1px 10px;
@@ -606,6 +606,11 @@ footer {
     }
 }
 
-@media screen and (max-width: 340px) {}
+@media screen and (max-width: 416px) {
+    .dots {
+        position: relative;
+        bottom: 45px;
+    }
+}
 
-@media screen and (max-width: 340px) {}
+@media screen and (max-width: 440px) {}
