@@ -11,6 +11,22 @@
 </head>
 
 <body>
+    <div class="modal">
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Accueil</a>
+                </li>
+                <li>
+                    <a href="">Rechercher</a>
+                </li>
+                <li>
+                    <a href="">Deconnecter</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
     <header>
         <div class="logo">
             <a href=""><img src="img/logo-sixto.png"></a>
@@ -28,102 +44,112 @@
                 </li>
 
             </ul>
+            <div class="menu" onclick="modal()">
+                <label class="span"></label>
+                <label class="span"></label>
+                <label class="span"></label>
+            </div>
         </nav>
     </header>
-    <hr class="hr">
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="im0"><img src="videos/0.png"></div>
+    <hr class="hr ">
+    <div class="slideshow-container ">
+        <div class="mySlides fade ">
+            <div class="im0 "><img src="videos/0.png "></div>
         </div>
-        <div class="mySlides fade">
-            <div class="im0"><img src="videos/4.jpg"></div>
+        <div class="mySlides fade ">
+            <div class="im0 "><img src="videos/4.jpg "></div>
         </div>
-        <div class="mySlides fade">
-            <div class="im0"><img src="videos/2.jpg"></div>
+        <div class="mySlides fade ">
+            <div class="im0 "><img src="videos/2.jpg "></div>
         </div>
 
-        <a class="prev " onclick="plusSlides(-1)">&#10094</a>
-        <a class="next " onclick="plusSlides(1)">&#10095</a>
-        <div class="dots">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+        <!-- <a class="prev " onclick="plusSlides(-1) ">&#10094</a>
+        <a class="next " onclick="plusSlides(1) ">&#10095</a>
+       -->
+        <div class="dots ">
+            <span class="dot "></span>
+            <span class="dot "></span>
+            <span class="dot "></span>
         </div>
     </div>
-    <div class="bigTitle">
+    <div class="bigTitle ">
         <h1>SIXTO</h1>
         <p>La plateforme haitienne de reference en matiere de visionning. Regardez, partagez un abonnement avec votre famille et amis. Et n'hesitez surtout pas a nous faire part de votre avis et nous sugerer ce que vous souhaitiez !
         </p>
     </div>
-    <h2 class="freeW">Free Watching</h2>
-    <div class="movies-container">
-        <!-- <div class="prev"><span>&#10094</span></div> -->
-        <div class="movie">
-            <div>
-                <video src="videos/a.mp4" controls></video>
+    <h2 class="freeW ">Free Watching</h2>
+    <div class="fauxCont">
+        <div class="movies-container ">
+            <!-- <div class="prev "><span>&#10094</span></div> -->
+            <div class="movie ">
+                <div>
+                    <video src="videos/a.mp4 " controls></video>
+                </div>
+                <div class="detail ">
+                    <h3 class="titre ">Messi loll</h3>
+                    <h4>2013</h4>
+                </div>
             </div>
-            <div class="detail">
-                <h3 class="titre">Messi loll</h3>
-                <h4>2013</h4>
+            <div class="movie ">
+                <div>
+                    <video src="videos/b.mp4 " controls></video>
+                </div>
+                <div class="detail ">
+                    <h3 class="titre ">Messi loll</h3>
+                    <h4>2020</h4>
+                </div>
             </div>
+            <div class="movie ">
+                <div>
+                    <video src="videos/c.mp4 " controls></video>
+                </div>
+                <div class="detail ">
+                    <h3 class="titre ">Messi loll</h3>
+                    <h4>2011</h4>
+                </div>
+            </div>
+            <!-- <div class="prev "><span>&#10094</span></div> -->
         </div>
-        <div class="movie">
-            <div>
-                <video src="videos/b.mp4" controls></video>
-            </div>
-            <div class="detail">
-                <h3 class="titre">Messi loll</h3>
-                <h4>2020</h4>
-            </div>
-        </div>
-        <div class="movie">
-            <div>
-                <video src="videos/c.mp4" controls></video>
-            </div>
-            <div class="detail">
-                <h3 class="titre">Messi loll</h3>
-                <h4>2011</h4>
-            </div>
-        </div>
-        <!-- <div class="prev"><span>&#10094</span></div> -->
     </div>
     <hr>
-    <h2 class="freeW">Paid Content</h2>
-    <div class="movies-container">
-        <!-- <div class="prev"><span>&#10094</span></div> -->
-        <div class="movie">
-            <div>
-                <video src="videos/a.mp4" controls></video>
+    <h2 class="freeW ">Paid Content</h2>
+    <div class="fauxCont">
+        <div class="movies-container ">
+            <!-- <div class="prev "><span>&#10094</span></div> -->
+            <div class="movie ">
+                <div>
+                    <video src="videos/a.mp4 " controls></video>
+                </div>
+                <div class="detail ">
+                    <h3 class="titre ">Messi loll</h3>
+                    <h4>2013</h4>
+                </div>
             </div>
-            <div class="detail">
-                <h3 class="titre">Messi loll</h3>
-                <h4>2013</h4>
+            <div class="movie ">
+                <div>
+                    <video src="videos/b.mp4 " controls></video>
+                </div>
+                <div class="detail ">
+                    <h3 class="titre ">Messi loll</h3>
+                    <h4>2020</h4>
+                </div>
             </div>
+            <div class="movie ">
+                <div>
+                    <video src="videos/c.mp4 " controls></video>
+                </div>
+                <div class="detail ">
+                    <h3 class="titre ">Messi loll</h3>
+                    <h4>2011</h4>
+                </div>
+            </div>
+            <!-- <div class="prev "><span>&#10094</span></div> -->
         </div>
-        <div class="movie">
-            <div>
-                <video src="videos/b.mp4" controls></video>
-            </div>
-            <div class="detail">
-                <h3 class="titre">Messi loll</h3>
-                <h4>2020</h4>
-            </div>
-        </div>
-        <div class="movie">
-            <div>
-                <video src="videos/c.mp4" controls></video>
-            </div>
-            <div class="detail">
-                <h3 class="titre">Messi loll</h3>
-                <h4>2011</h4>
-            </div>
-        </div>
-        <!-- <div class="prev"><span>&#10094</span></div> -->
     </div>
-    <hr class="hr">
+    <hr class="hr ">
     <footer>
         &#169 SIXTO 2022
         <br/>Tous Droits Reserves</footer>
-    <script src="js/auto-slidehow.js"></script>
+    <script src="js/auto-slidehow.js "></script>
 
 </html>
