@@ -3,11 +3,31 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Accueil</title>
+    <title>Browse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
+    <div class="modal">
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Accueil</a>
+                </li>
+                <li>
+                    <a href="">Rechercher</a>
+                </li>
+                <li>
+                    <a href="">Deconnecter</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
     <header>
         <div class="logo">
             <a href=""><img src="img/logo-sixto.png"></a>
@@ -23,7 +43,13 @@
                 <li>
                     <a href="">Deconnecter</a>
                 </li>
+
             </ul>
+            <div class="menu" onclick="modal()">
+                <label class="span"></label>
+                <label class="span"></label>
+                <label class="span"></label>
+            </div>
         </nav>
     </header>
 
@@ -44,5 +70,8 @@
         </div>
     </div>
 </body>
+<!-- <hr class="hr "> -->
+
+<script src="js/auto-slidehow.js "></script>
 
 </html>
