@@ -474,6 +474,7 @@ footer {
     .dots {
         position: relative;
         bottom: 45px;
+        left: 40%;
     }
     .dots .dot {
         padding: 1px 10px;
