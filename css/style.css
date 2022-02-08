@@ -467,8 +467,12 @@ hr {
 }
 
 footer {
+    position: relative;
+    bottom: 0;
     color: white;
     text-align: center;
+    width: 100%;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -610,6 +614,18 @@ footer {
     .dots {
         position: relative;
         bottom: 45px;
+    }
+    .bigTitle p {
+        font-size: 0.7em;
+        width: 99%;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .bigTitle:hover {
+        font-size: .443cm;
+        box-shadow: 8px 3px 16px 5px yellowgreen;
+        background-color: rgb(150, 146, 146);
+        transition: all 1.9s;
     }
 }
 
